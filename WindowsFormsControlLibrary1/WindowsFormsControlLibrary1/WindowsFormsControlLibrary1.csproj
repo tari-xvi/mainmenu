@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{27F66F75-D629-4406-855E-CE175C0A6B9D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsFormsControlLibrary1</RootNamespace>
+    <AssemblyName>WindowsFormsControlLibrary1</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="firstCustomContol.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="firstCustomContol.Designer.cs">
+      <DependentUpon>firstCustomContol.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MySecondControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MySecondControl.Designer.cs">
+      <DependentUpon>MySecondControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MytwetControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MytwetControl.Designer.cs">
+      <DependentUpon>MytwetControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl1.Designer.cs">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="firstCustomContol.resx">
+      <DependentUpon>firstCustomContol.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySecondControl.resx">
+      <DependentUpon>MySecondControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MytwetControl.resx">
+      <DependentUpon>MytwetControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl1.resx">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dancer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dance.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12bfee4bd76bde86f565a43e15084ee2 copy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\copu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12bfee4bd76bde86f565a43e15084ee2 copy1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coba.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iya.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tei.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sl.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sa%3bvi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kamera1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kamera11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dance1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dancing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kamera2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dance2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\data-transfer %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\magnifying-glass %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12bfee4bd76bde86f565a43e15084ee2 copy2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12bfee4bd76bde86f565a43e15084ee2_copy-removebg-preview %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dance %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dance %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\facebook %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\facebook.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gear %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\house.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tanda tanya.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tanda tanya2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tds.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kamera21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dance %281%292.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tari.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tari2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tari3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\titik.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nurul.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gamr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download__1_-removebg-preview %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gamr1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Thai-dancing-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dancing1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kamera12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\data-transfer %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dance %281%293.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\manggo sace.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\data-transfer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dance3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\omg-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\riset.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,13 @@
+D:\penulisan TA\admincsbaru\admincsbaru\bin\Debug\admincsbaru.exe.config
+D:\penulisan TA\admincsbaru\admincsbaru\bin\Debug\admincsbaru.exe
+D:\penulisan TA\admincsbaru\admincsbaru\bin\Debug\admincsbaru.pdb
+D:\penulisan TA\admincsbaru\admincsbaru\obj\Debug\admincsbaru.forecustomcontrolcs.resources
+D:\penulisan TA\admincsbaru\admincsbaru\obj\Debug\admincsbaru.Form1.resources
+D:\penulisan TA\admincsbaru\admincsbaru\obj\Debug\admincsbaru.fristcustomcontrolcs.resources
+D:\penulisan TA\admincsbaru\admincsbaru\obj\Debug\admincsbaru.Properties.Resources.resources
+D:\penulisan TA\admincsbaru\admincsbaru\obj\Debug\admincsbaru.triicustomcontrolcs.resources
+D:\penulisan TA\admincsbaru\admincsbaru\obj\Debug\admincsbaru.tweetcustomcontrolcs.resources
+D:\penulisan TA\admincsbaru\admincsbaru\obj\Debug\admincsbaru.csproj.GenerateResource.Cache
+D:\penulisan TA\admincsbaru\admincsbaru\obj\Debug\admincsbaru.exe
+D:\penulisan TA\admincsbaru\admincsbaru\obj\Debug\admincsbaru.pdb
+D:\penulisan TA\admincsbaru\admincsbaru\obj\Debug\admincsbaru.csprojResolveAssemblyReference.cache
